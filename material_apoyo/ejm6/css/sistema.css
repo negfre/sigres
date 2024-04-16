@@ -1,0 +1,58 @@
+		#loading-mask{
+			position:absolute;
+			left:0;
+			top:0;
+			width:100%;
+			height:100%;
+			z-index:20000;
+			background-color:white;
+		}
+		#loading{
+			position:absolute;
+			left:45%;
+			top:40%;
+			padding:2px;
+			z-index:20001;
+			height:auto;
+		}
+		#loading a {
+			color:#225588;
+		}
+		#loading .loading-indicator{
+			background:white;
+			color:#444;
+			font:bold 13px tahoma,arial,helvetica;
+			padding:10px;
+			margin:0;
+			height:auto;
+		}
+		#loading-msg {
+			font: normal 10px arial,tahoma,sans-serif;
+		}
+.x-icon-menu-asistencia{
+ 	background-image:url('../images/asistencia.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-horario{
+ 	background-image:url('../images/horario.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-usuario{
+ 	background-image:url('../images/usuario.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-cuenta-corriente{
+ 	background-image:url('../images/cuenta.png')!important;
+	background-repeat: no-repeat;
+}
+
+
+	
+.x-icon-nuevo{
+ 	background-image:url('../images/add.gif')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-eliminar{
+ 	background-image:url('../images/delete.gif')!important;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,252 @@
+#loading-mask{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:20000;
+	background-color:white;
+}
+#loading{
+	position:absolute;
+	left:45%;
+	top:40%;
+	padding:2px;
+	z-index:20001;
+	height:auto;
+	
+}
+#headerr{
+	background-color: rgb(0, 26, 255);
+	display: flex;
+	position:absolute;
+
+}
+#loading a {
+	color:#225588;
+}
+#loading .loading-indicator{
+	background:white;
+	color:#444;
+	font:bold 15px tahoma,arial,helvetica;
+	padding:10px;
+	margin:0;
+	height:auto;
+}
+#loading-msg {
+	font: normal 12px arial,tahoma,sans-serif;
+}
+
+
+.x-icon-menu-modificar{
+ 	background-image:url('../imagenes/modificar.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-duplicar{
+ 	background-image:url('../imagenes/duplicar.png')!important;
+	background-repeat: no-repeat;
+}
+.estiloTitulo {
+	font-size: 16px;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+
+.x-icon-menu-unidad-negocio{
+ 	background-image:url('../imagenes/formulario.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-gerencia{
+ 	background-image:url('../imagenes/formulario.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-usuario{
+ 	background-image:url('../imagenes/formulario.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-proyecto{
+ 	background-image:url('../imagenes/formulario.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-division{
+ 	background-image:url('../imagenes/formulario.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-tipo-proyecto{
+ 	background-image:url('../imagenes/formulario.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-grupo-proyecto{
+ 	background-image:url('../imagenes/formulario.png')!important;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.x-icon-menu-requerimiento{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-proceso{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-subproceso{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-analista{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-servicio{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-proceso-servicio{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-actividad{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-subactividad{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-medida{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-subactividad-medida{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-proveedor{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-aplicacion{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-modulo{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.x-icon-menu-matriz{
+ 	background-image:url('../imagenes/indicador.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-grupo-matriz{
+ 	background-image:url('../imagenes/indicador.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-indicador{
+ 	background-image:url('../imagenes/indicador.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-grupo-indicador{
+ 	background-image:url('../imagenes/indicador.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-plan-anual{
+ 	background-image:url('../imagenes/indicador.png')!important;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.x-icon-menu-rep-indicador{
+ 	background-image:url('../imagenes/reporte.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-rep-matriz{
+ 	background-image:url('../imagenes/reporte.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-rep-negocio{
+ 	background-image:url('../imagenes/reporte.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-rep-proceso{
+ 	background-image:url('../imagenes/reporte.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-rep-analista{
+ 	background-image:url('../imagenes/reporte.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-rep-personal{
+ 	background-image:url('../imagenes/reporte.png')!important;
+	background-repeat: no-repeat;
+}
+
+
+
+.x-icon-menu-manual{
+ 	background-image:url('../imagenes/libro.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-acercade{
+ 	background-image:url('../imagenes/libro.png')!important;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.x-icon-menu-gerencia2{
+ 	background-image:url('../imagenes/formulario2.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-reporte{
+ 	background-image:url('../imagenes/reporte.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-menu-ayuda2{
+ 	background-image:url('../imagenes/libro.png')!important;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.x-icon-menu-horario{
+ 	background-image:url('../imagenes/horario.png')!important;
+	background-repeat: no-repeat;
+}
+.x-icon-nuevo{
+ 	background-image:url('../imagenes/add.gif')!important;
+	background-repeat: no-repeat;
+}
+
+.x-icon-menu-user{
+ 	background-image:url('../imagenes/usuario.png')!important;
+	background-repeat: no-repeat;
+}
+
+.x-icon-calendario{
+ 	background-image:url('../imagenes/calendario.png')!important;
+	background-repeat: no-repeat;
+}
+
+.x-icon-reloj{
+ 	background-image:url('../imagenes/reloj.gif')!important;
+	background-repeat: no-repeat;
+}
+
+.x-icon-cerrar-sesion{
+ 	background-image:url('../imagenes/cross.png')!important;
+	background-repeat: no-repeat;
+}
+
+

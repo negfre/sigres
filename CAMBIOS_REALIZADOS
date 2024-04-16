@@ -1,0 +1,27 @@
+Se realizarón los siguientes cambios:
+
+    El campo de tiempo efectivo  se cambio de minutos a Horas
+
+    El rol de Lider podra realizar las siguientes acciones: 
+
+            Exportar requerimientos
+
+            Añadir Proveedores de Aplicaciones
+
+            Añadir aplicaciones
+
+            Añadir sub-actividad
+
+            Añadir Medidas a las sub-actividades
+
+            Añadir usuarios
+
+    Se añadio el Rol de Supervisor y este podra realizar las siguientes acciones: 
+
+           Exportar el reportes de todas actividades Cargadas
+
+           Crear requerimientos
+
+            Añadir usuarios
+
+            Cargar Requerimientos 

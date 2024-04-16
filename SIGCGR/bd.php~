@@ -1,0 +1,15 @@
+
+<?php
+//Crear conexión a la BD
+function conectarBD(){
+  $cnn = pg_connect("host=localhost port=5432 dbname=sigcgr user=postgres password=g12255") or die("No se pudo conectar con el servidor");
+  return $cnn;
+}
+//Funcion que ejecuta todas las sentencias SQL
+function consultas($sql){
+ $dbconn = conectarBD();
+ $result = pg_query($dbconn, $sql);
+ return $result;
+}
+
+?>

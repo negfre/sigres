@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Demo: Reading JSON with the Ext.data.JsonStore  | Quizzpot</title>
+
+<link rel="stylesheet" type="text/css" href="../ext-2.2/resources/css/ext-all.css" />
+
+<script type="text/javascript" src="../ext-2.2/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="../ext-2.2/ext-all.js"></script>
+
+<script type="text/javascript" src="json.js"></script>
+<style type="text/css">
+#frame{
+	width:900px;
+	margin:0px auto;
+	padding:20px;
+}
+#response{
+	height:500px;
+	overflow:auto;
+	margin-top:20px;
+	border:1px solid #aaa;
+	color:#444;
+}
+#response p{
+	padding:1px 5px;
+}
+#response strong{
+	font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<div id="frame">
+	<p>
+		<input type="text" id="txt" />
+		<input type="button" value="Search person" id="personBtn" />
+		<input type="button" value="Order ASC" id="ascBtn" />
+		<input type="button" value="Order DESC" id="descBtn" />
+		<input type="button" value="Between 20 and 30 years old" id="older2030Btn" />
+		<input type="button" value="Older than 30 years old" id="older30Btn" />
+		<input type="button" value="Count" id="countBtn" />
+	</p>
+	
+	<div id="response"></div>
+</div>
+
+</body>
+</html>
